@@ -1,0 +1,9 @@
+*.suo
+*.sdf
+*.opensdf
+*.user
+
+.vs
+bin
+obj
+packages
