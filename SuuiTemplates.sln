@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuuiTemplates", "SuuiTemplates\SuuiTemplates.csproj", "{78C6F0F4-352A-4B57-8E2E-302D3D582285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuuiTestProject", "SuuiTestProject\SuuiTestProject.csproj", "{2752B917-B086-4499-928D-15156EE695D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78C6F0F4-352A-4B57-8E2E-302D3D582285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C6F0F4-352A-4B57-8E2E-302D3D582285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C6F0F4-352A-4B57-8E2E-302D3D582285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C6F0F4-352A-4B57-8E2E-302D3D582285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2752B917-B086-4499-928D-15156EE695D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2752B917-B086-4499-928D-15156EE695D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2752B917-B086-4499-928D-15156EE695D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2752B917-B086-4499-928D-15156EE695D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

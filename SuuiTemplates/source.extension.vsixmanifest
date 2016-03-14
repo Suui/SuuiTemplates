@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+	<Identity Id="SuuiTemplates.Suui.16a56d15-4bf2-47ae-9a15-f3580c980b14" Version="1.0" Language="en-US" Publisher="Suui" />
+	<DisplayName>SuuiTemplates</DisplayName>
+	<Description xml:space="preserve">A set of my templates, including:
+- An empty C# test project with NUnit, FluentAssertions and NSubstitute already installed</Description>
+	<Tags>c#, test, nunit, fluentassertions, nsubstitute</Tags>
+  </Metadata>
+  <Installation>
+	<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+	<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+	<Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="SuuiTestProject" d:TargetPath="|SuuiTestProject;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+</PackageManifest>
